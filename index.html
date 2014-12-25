@@ -29,7 +29,7 @@
   </head>
 
   <body>
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
       <span class="icon-bar"></span>
@@ -40,7 +40,7 @@
   </div>
   <div class="navbar-collapse collapse navbar-inverse-collapse">
     <ul class="nav navbar-nav navbar-left">
-      <li class="active"><a href="index.html">Portfolio</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -60,6 +60,7 @@
       </div>
     </div>
 
+<section id="portfolio">
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -99,14 +100,42 @@
     	  </div><!--/.col-xs-6.col-lg-4-->
       </div><!-- /row -->
       </div>
+</section>
 
       <hr>
 
 <section id="contact">
-	<div class="container">
-		<h2>Contact Me</h2>
-		<p>You can send me an email at <a href="mailto:kxing@uwaterloo.ca">kxing@uwaterloo.ca</a></p>
-	</div>
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Contact Me</h2>
+                    <p>You can send me an email at <a href="mailto:kxing@uwaterloo.ca">kxing@uwaterloo.ca</a>, or click any of the following:</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <ul class="list-inline contact-btns">
+                        <li>
+                            <a href="mailto:kxing@uwaterloo.ca" class="btn btn-primary">Email</a>
+                        </li>
+                        <li>
+                            <a href="http://github.com/ggkevinxing" class="btn btn-primary">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Placeholder</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
 </section>
 
 
