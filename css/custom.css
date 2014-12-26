@@ -22,3 +22,16 @@ footer {
 .contact-btns {
   padding: 50px;
 }
+
+.banner {
+  padding-top: 30px;
+  background-color: #fafafa;
+}
+
+.page-header {
+  padding-top: 30px;
+}
+
+.aboutme {
+  padding-bottom: 20px;
+}
