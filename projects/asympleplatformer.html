@@ -58,8 +58,8 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Portfolio Item
-                    <small>Item Subheading</small>
+                <h1 class="page-header">aSymplePlatformer - Fall 2014 GI Jam
+                    <small>Programmer, Artist, Lead Designer</small>
                 </h1>
             </div>
         </div>
@@ -67,75 +67,111 @@
 
         <!-- Portfolio Item Row -->
         <div class="row">
-
-            <div class="col-md-8">
-                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+            <div class="col-md-4">
+                <h3>The Journey</h3>
+                <p>A play on words with its title, aSymplePlatformer is a simple asymmetric multiplayer platformer created for the Fall 2014 Games Institute Jam at the University of Waterloo. With Serge Babayan (<a href="https://github.com/sergei1152">@sergei1152</a>) and Shan Phylim(<a href="https://github.com/shanpls">@shanpls</a>), we created this game in less than 48 hours, though we continued to work on it following the end of the GI Jam itself. You can see the state of aSymplePlatformer as it was at the end of the Fall 2014 GI Jam <a href="https://github.com/FroshBite/aSymplePlatformer/releases/tag/v0.1">here</a>.</p>
+                <p>The GI Jam is three days long, but the first day is always dedicated to tutorials and presentations to get the inexperienced started. As such, we spent the tutorial day attending tutorials for Unity, as we had never made anything in it before. In particular, we were walked through making a rudimentary version of Angry Birds in Unity, which is loosely what the scripting for Player 2 is based on. <a href="https://www.dropbox.com/s/p6mnsrsp19cdypw/GIJam%20-%20Finished%20Samus-a-pult%20Unity%20Project.zip?dl=0">Here are the project files for the rudimentary Angry Birds built during this tutorial.</a> Funnily enough, the naked wizard that Shan doodled during these tutorials ended up being the main character of our game!</p>
             </div>
 
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+            <div class="col-md-8">
+    <!-- Carousel
+    ================================================== -->
+                <div id="carousel-asympleplatformer" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="1"></li>
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="2"></li>
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="3"></li>
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="4"></li>
+                    <li data-target="#carousel-asympleplatformer" data-slide-to="5"></li>
+                  </ol>
+                 
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/asympleplatformer/asympleplatformer_main.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Made in Unity and C#!</h3>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/asympleplatformer/asympleplatformer_gameplay.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Asymmetric Gameplay</h3>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/asympleplatformer/asympleplatformer_p1win.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Victory conditions for Player 1</h3>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/asympleplatformer/asympleplatformer_p2win.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Victory conditions for Player 2</h3>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/asympleplatformer/asympleplatformer_pausemenu.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Working Pause Menus with OnGUI()</h3>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/asympleplatformer/asympleplatformer_spritework.png" alt="...">
+                      <div class="carousel-caption">
+                          <h3>Hand-drawn sprite assets!</h3>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-asympleplatformer" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-asympleplatformer" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div> <!-- Carousel -->
             </div>
 
         </div>
         <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-8">
+                <p>As the core theme of this particular GI Jam was asymmetry, I thought of the basic premise of the game; one player will be controlling a character on-screen via keyboard, climbing, dashing and jumping their way to the end of the level while a second player will be using the mouse to drag and drop obstacles into the level to stop the first player from successfully reaching the end. With that in mind, our team (at this point titled <a href="https://github.com/FroshBite">"Froshbite"</a>) was able to quite nicely divide up the work and efficiently put together the game in time for the showcase at the end of the GI Jam.</p>
+                <p>For the first day working, Serge and I programmed the platforming aspects of the gameplay, while Shan worked on the obstacle dropping gameplay for the second player. For Serge and I, we dedicated most of our time on making the platforming gameplay feel acceptable. Basic movement was easily set up thanks to Unity's extensive documentation, and our character was able to move side-to-side and jump in no time at all. However the mobility still felt limited, so we focused on fine-tuning the jumping by changing upwards velocity depending on how long the jump button has been pressed, and by adding a dash function which allows the character to temporarily boost left or right while maintaining Y-axis position. Needless to say, implementing these two functions took the longest time out of programming any other aspects of the game.</p>
+                <p class="lead">We figured that if our main character was a naked wizard, he'd have to be more mobile than the average person.</p>
+                <p>While Serge was finalizing character movement and tweaking physics values while testing the game, I worked on making some more basic art assets to integrate into our demonstration level as well as the in-game GUI elements. Along with the in-game pause menu and win conditions for both players, I also wrote a very basic level select menu that used 3D Text to load levels in the build when clicked on. We never ended up using this in the GI Jam build as we only had one level to show, but within weeks working on the game on the side while juggling school assignments, there was a reason to use it.</p>
+                <p>The last day of the GI Jam was spent mostly cleaning up the code and synchronizing everyone's scripts with GitHub. Most of the time was dedicated to properly integrating Shan's obstacle scripts into the game as there had been little testing for it up until the last day. It was a fairly lax day knowing that the core mechanics of the game were essentially finished and just needed finishing touches on it. Ultimately it was a project that all of us were satisfied with, knowing it was our first ever game made in Unity. It was especially satisfying after learning that the game was actually fun to play together!</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Project Tools</h3>
+                <ul>
+                    <li><a href="http://unity3d.com/unity/download">Unity and MonoDevelop</a></li>
+                    <li><a href-"http://www.adobe.com/ca/products/photoshop.html">Photoshop</a> (or <a href="http://www.gimp.org/">GIMP</a>)</li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                </ul>
+                <h3>Critic Acclaim</h3>
+                <blockquote class="pull-right">
+                     <p>Is that... is that wizard naked?</p>
+                     <small>John Harris, Games Institute PhD Student</small>
+                </blockquote>
+            </div>
+        </div>
 
         <!-- Related Projects Row -->
         <div class="row">
 
             <div class="col-lg-12">
-                <h3 class="page-header">Progress Pictures</h3>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-                <p>Caption</p>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-                <p>Caption</p>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-                <p>Caption</p>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-                <p>Caption</p>
+                <h2 class="page-header">To view the current state of aSymplePlatformer, click <a href="https://github.com/FroshBite/aSymplePlatformer">here</a>.</h2>
             </div>
 
         </div>
         <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
 
     </div>
     <!-- /.container -->
@@ -178,3 +214,14 @@
     </div>
     <!-- /.banner -->
 </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
