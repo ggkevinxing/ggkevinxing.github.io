@@ -3,6 +3,10 @@ ul.nav {
 	font-size: 13px;
 }
 
+section {
+  : 300px;
+}
+
 .spacer {
 	padding-bottom: 40px;
 }
@@ -34,6 +38,12 @@ footer {
 
 .page-header {
   padding-top: 30px;
+}
+
+.page-header-no-underline {
+  padding-top: 30px;
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
 }
 
 .aboutme {
