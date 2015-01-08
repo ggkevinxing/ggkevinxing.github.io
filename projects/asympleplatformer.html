@@ -39,13 +39,19 @@
   </div>
   <div class="navbar-collapse collapse navbar-inverse-collapse">
     <ul class="nav navbar-nav navbar-left">
-      <li><a href="../index.html#portfolio">Portfolio</a></li>
-      <!-- <li><a href="index.html#about">About</a></li> -->
-      <li><a href="#contact">Contact</a></li>
+      <!-- <li><a href="#about">About</a></li> -->
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#">Blog</a></li>
-      <li><a href="http://github.com/ggkevinxing">GitHub</a></li>
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://github.com/ggkevinxing">GitHub</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="mailto:kxing@uwaterloo.ca">Email</a></li>
+          </ul>
+      </li>
     </ul>
       </li>
     </ul>
@@ -166,12 +172,13 @@
                 <p>While Serge was finalizing character movement and tweaking physics values while testing the game, I worked on making some more basic art assets to integrate into our demonstration level as well as the in-game GUI elements. Along with the in-game pause menu and win conditions for both players, I also wrote a very basic level select menu that used 3D Text to load levels in the build when clicked on. We never ended up using this in the GI Jam build as we only had one level to show (though we did continue to work on the game after the GI Jam and currently have more than one level, thus necessitating a level select menu).</p>
                 <p>The last day of the GI Jam was mostly spent cleaning up the code and synchronizing everyone's scripts with GitHub. Most of the time was dedicated to properly integrating Shan's obstacle scripts into the game as there had been little testing for it up until the last day. It was a fairly lax day knowing that the core mechanics of the game were essentially finished and just needed finishing touches on it. Ultimately it was a project that all of us were satisfied with, knowing it was our first ever game made in Unity. It was especially satisfying after learning that the game was actually fun to play together!</p>
                 <h3>The Road Ahead</h3>
+                <p>While I likely will no longer be working on this game, the following is a list of next steps to take in improving it. It is also something to look out for when making another Unity game.</p>
                 <ul>
-                    <li>Proper implementation of moving and idle animations for the naked wizard</li>
-                    <li>Completion of tutorial levels for Player 1 and Player 2</li>
-                    <li>Improvement of existing art assets, especially level select menu graphics</li>
+                    <li>Proper implementation of switching between different animations</li>
+                    <li>Completion of tutorial levels</li>
+                    <li>Improvement of existing art assets, menu graphics</li>
                     <li>Creation of GUI that matches art style</li>
-                    <li>Creation of sound effects</li>
+                    <li>Creation of sound/music assets</li>
                 </ul>
             </div>
         </div>
@@ -190,39 +197,6 @@
 
     </div>
     <!-- /.container -->
-
-
-<!-- Contact -->
-<section id="contact">
-
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Contact Me</h2>
-                    <p>You can send me an email at <a href="mailto:kxing@uwaterloo.ca">kxing@uwaterloo.ca</a>, or click any of the following:</p>
-                </div>
-
-                <div class="col-lg-6">
-                    <ul class="list-inline contact-btns">
-                        <li>
-                            <a href="mailto:kxing@uwaterloo.ca" class="btn btn-primary">Email</a>
-                        </li>
-                        <li>
-                            <a href="http://github.com/ggkevinxing" class="btn btn-primary">GitHub</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-</section>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
