@@ -5,4 +5,5 @@ For now this site serves to showcase projects I've been working on, but progress
 
 ## Completed Project Pages
 
-* [aSymplePlatformer](http://kevinxing.me/projects/asympleplatformer.html)
+* [aSymplePlatformer](http://kevinxing.me/projects/2014/asympleplatformer/)
+* [FullHealth.ca](http://kevinxing.me/projects/2013/fullhealth/)
