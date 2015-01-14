@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+}
+
+p {
+	color: #37605c;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	color: #5ec0bf;
+	font-family: 'PT Sans', sans-serif;
+}
+
+div {
+	font-family: 'PT Sans', sans-serif;	
+}
+
+hr {
+	border-color: #5ec0bf;
+}
+
+.lead {
+	color: #37605c;
+	line-height: 0.4;
+	margin-top: 0px;
+}
+
+.btn {
+	padding: 2px 18px;
+}
+
+.btn-default {
+	color: #5ec0bf;
+	background-color: #284e4f;
+	border-color: #5ec0bf;
+}
+
+.page-header {
+	color: #5ec0bf;
+	border-color: #5ec0bf;
+}
