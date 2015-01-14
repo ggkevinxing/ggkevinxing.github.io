@@ -20,7 +20,17 @@ hr {
 	border-color: #5ec0bf;
 }
 
+.bright {
+	color: #5ec0bf;	
+}
+
 .lead {
+	color: #5ec0bf;
+	line-height: 0.4;
+	margin-top: 0px;
+}
+
+.lead-dark {
 	color: #37605c;
 	line-height: 0.4;
 	margin-top: 0px;
@@ -39,4 +49,21 @@ hr {
 .page-header {
 	color: #5ec0bf;
 	border-color: #5ec0bf;
+}
+
+.spacer {
+	padding-bottom: 15px;
+}
+
+.glyphicon {
+	color: #5ec0bf;
+}
+
+.carousel .slide {       
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 1px;
+	border-color: #5ec0bf;
+	border-style: solid;
 }

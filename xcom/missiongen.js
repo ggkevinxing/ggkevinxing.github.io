@@ -1,40 +1,51 @@
 // INSPIRED BY X-COM: ENEMY UNKNOWN'S RANDOMLY GENERATED MISSION NAMES
 
-
-
-// array of adjectives
+// adjectives
 var adj = Array 
 (
 	"SILENT",
 	"FLYING",
+	"RISING",
 	"CRASHING",
 	"THUNDEROUS",
 	"FURIOUS",
-	"UNBROKEN",
-	"VENGEFUL",
-	"STRIKING",
-	"SWIFT",
+	"IRON",
 	"ROARING",
 	"RAGING",
+	"RIPPING",
+	"UNBROKEN",
+	"BROKEN",
+	"VENGEFUL",
+	"HIDDEN",
+	"STRIKING",
+	"SWIFT",
 	"CHARGING",
+	"SHATTERING",
 	"SWEEPING",
 	"MORNING",
 	"GUARDIAN"
 );
 
-// array of nouns
+// nouns
 var noun = Array 
 (
+	"ANGEL",
 	"WHISPER",
 	"CRY",
+	"TERROR",
+	"FORCE",
+	"MIGHT",
+	"LIGHT",
 	"PANTHER",
 	"BULL",
 	"TIGER",
+	"EAGLE",
 	"INFERNO",
 	"THUNDER",
 	"LIGHTNING",
 	"STORM",
 	"TIDE",
+	"WHIRLWIND",
 	"FIST",
 	"SWORD",
 	"BLADE",
