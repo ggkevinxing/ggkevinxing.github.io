@@ -4,20 +4,33 @@ body {
 
 p {
 	color: #37605c;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
+}
+
+a {
+	color: #37605c;
+}
+
+a:hover {
+	color: #5ec0bf;
+	text-decoration: none;
 }
 
 h1 {
 	color: #5ec0bf;
-	font-family: 'PT Sans', sans-serif;
-}
-
-div {
-	font-family: 'PT Sans', sans-serif;	
+	font-family: 'Khand', sans-serif;
 }
 
 hr {
 	border-color: #5ec0bf;
+}
+
+.center {
+	text-align: center;
+}
+
+.upsize {
+	font-size: 27px;
 }
 
 .bright {
@@ -38,6 +51,7 @@ hr {
 
 .btn {
 	padding: 2px 18px;
+	font-family: 'Khand', sans-serif;
 }
 
 .btn-default {
@@ -59,11 +73,11 @@ hr {
 	color: #5ec0bf;
 }
 
-.carousel .slide {       
-	border-top: 1px;
-	border-left: 1px;
-	border-right: 1px;
-	border-bottom: 1px;
-	border-color: #5ec0bf;
-	border-style: solid;
+.carousel-control.right {
+	right: 36px;
+}
+
+
+.hoverbright:hover {
+	color: #5ec0bf;
 }

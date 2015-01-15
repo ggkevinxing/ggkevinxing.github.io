@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="xcom.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Khand|Muli' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
@@ -33,20 +33,22 @@
   <body>
 
 <div class="container-fluid">
+
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">OPERATION <span id="adj">VENGEFUL</span> <span id="noun">STEEL</span>
             <div class="btn-default btn pull-right" id="gen">NEW NAME</div>
             </h1>
         </div>
-    </div>
+    </div> <!-- end row -->
+
     <div class="row">
         <div class="col-md-8">
-            <h1 class="lead lead-dark">BY KEVIN XING</h1>
-            <h1 class="lead lead-dark spacer">TORONTO, CANADA</h1>
+            <h1 class="lead lead-dark upsize"><a href="../">KEVIN XING</a></h1>
+            <h1 class="lead lead-dark upsize spacer hoverbright">TORONTO, CANADA // SHANGHAI, CHINA</h1>
 
              <!-- Carousel-->
-            <div id="carousel-xcomhomage" class="carousel slide" data-ride="carousel">
+            <div id="carousel-xcomhomage" class="carousel spacer" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <li data-target="#carousel-xcomhomage" data-slide-to="0" class="active"></li>
@@ -84,16 +86,34 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
             </div> <!-- Carousel -->
+
+            <p class="center hoverbright">TIP: <span id="tip">In an array, don't forget to use commas after each element or nothing will work!</span></p>
+            <div class="spacer"><p class="btn-default btn pull-right" id="newtip">NEW TIP</p></div>
+
+            <hr>
         </div>
+
         <div class="col-md-4">
-        <h1 class="lead lead-dark">MISSION BRIEF:</h1>
-        <p class="spacer">Kevin Xing is a first-year undergraduate student currently studying Computer Science at the University of Waterloo. While born and raised in Ontario, Canada he moved to Shanghai, China and attended high school at the Shanghai American School.</p>
+        <h1 class="lead lead-dark hoverbright">MISSION BRIEF:</h1>
+        <p class="hoverbright spacer">Kevin Xing is a first-year undergraduate student currently studying Computer Science at the University of Waterloo. While born and raised in Ontario, Canada he moved to Shanghai, China and attended high school at the Shanghai American School. There, he developed a liking for programming in his spare time, as Computer Science courses were not offered for IB Diploma students.</p>
         <hr>
 
         <h1 class="lead">MISSION OBJECTIVES: </h1>
-        <ul>
+        <ul class="spacer">
         <li class="bright">Complete Bachelor of Computer Science with Minor in Economics in 2019</li>
+        <li class="bright">Participate in hackathons/code jams to learn and create cool new things</li>
+        <li class="bright">Acquire jobs for CO-OP so as to not end up broke and homeless</li>
         </ul>
+
+        <hr>
+
+        </div>
+
+    </div> <!-- end row -->
+
+    <div class="row">
+        <div class="col-lg-12">
+            
         </div>
     </div>
 
@@ -102,9 +122,7 @@
   </div>
 
   <script src="missiongen.js" type="text/javascript"></script>
+  <script src="tipgen.js" type="text/javascript"></script>
   <script src="../js/bootstrap.min.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
   </body>

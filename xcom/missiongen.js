@@ -3,16 +3,20 @@
 // adjectives
 var adj = Array 
 (
+	"BLUE",
+	"RED",
 	"SILENT",
 	"FLYING",
 	"RISING",
 	"CRASHING",
 	"THUNDEROUS",
 	"FURIOUS",
+	"FIERCE",
 	"IRON",
 	"ROARING",
 	"RAGING",
 	"RIPPING",
+	"RECKLESS",
 	"UNBROKEN",
 	"BROKEN",
 	"VENGEFUL",
@@ -23,6 +27,8 @@ var adj = Array
 	"SHATTERING",
 	"SWEEPING",
 	"MORNING",
+	"BLINDING",
+	"DEAFENING",
 	"GUARDIAN"
 );
 
@@ -33,6 +39,7 @@ var noun = Array
 	"WHISPER",
 	"CRY",
 	"TERROR",
+	"RETALIATION",
 	"FORCE",
 	"MIGHT",
 	"LIGHT",
