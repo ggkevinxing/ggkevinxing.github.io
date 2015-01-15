@@ -5,6 +5,7 @@ var adj = Array
 (
 	"BLUE",
 	"RED",
+	"UNDYING",
 	"SILENT",
 	"FLYING",
 	"RISING",
@@ -12,6 +13,7 @@ var adj = Array
 	"THUNDEROUS",
 	"FURIOUS",
 	"FIERCE",
+	"GLORIOUS",
 	"IRON",
 	"ROARING",
 	"RAGING",
@@ -29,6 +31,7 @@ var adj = Array
 	"MORNING",
 	"BLINDING",
 	"DEAFENING",
+	"TACTICAL",
 	"GUARDIAN"
 );
 
@@ -47,6 +50,7 @@ var noun = Array
 	"BULL",
 	"TIGER",
 	"EAGLE",
+	"DRAGON",
 	"INFERNO",
 	"THUNDER",
 	"LIGHTNING",
@@ -54,8 +58,11 @@ var noun = Array
 	"TIDE",
 	"WHIRLWIND",
 	"FIST",
+	"FURY",
 	"SWORD",
+	"RAZOR",
 	"BLADE",
+	"EDGE",
 	"STRIKE",
 	"STEEL"
 );
