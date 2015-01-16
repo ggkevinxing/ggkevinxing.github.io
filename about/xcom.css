@@ -1,3 +1,5 @@
+/* general */
+
 body {
 	background-color: black;
 }
@@ -24,6 +26,9 @@ h1 {
 hr {
 	border-color: #5ec0bf;
 }
+
+
+/* specific classes */
 
 .center {
 	text-align: center;
@@ -79,4 +84,14 @@ hr {
 
 .hoverbright:hover {
 	color: #5ec0bf;
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+
+	.lead {
+		line-height: 1;
+	}
+
 }

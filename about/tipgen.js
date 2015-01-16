@@ -3,6 +3,7 @@ var tip = Array
 (
     "Be alert; leaving commas out of arrays or using the wrong type of (brackets) can lead to prolonged frustration.",
     "Be careful; forgetting any closing tags, brackets or semi-colons can result in disaster.",
+    "Be creative. Yes, I see the irony of this.",
     "Be excellent; a positive mindset, can-do attitude and cheery demeanor can bolster a team's morale.",
     "Be organized; keeping your code clean and well-explained with comments ensures more time coding and less time wondering what your code is even doing.",
     "Don't panic! Everything is going to be fine.",
