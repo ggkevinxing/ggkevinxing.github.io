@@ -91,7 +91,11 @@ hr {
 @media (max-width: 767px) {
 
 	.lead {
-		line-height: 1;
+		line-height: 1; /* no more broken overlapping text on mobile */
 	}
 
+	.carousel-control.right {
+		right: 0px;
+	}
+	
 }
