@@ -26,6 +26,12 @@ h2 {
   color: #007196;
 }
 
+/* Carousel */
+
+.carousel-caption {
+  padding-bottom: 12px;
+}
+
 /* Featurettes
 ------------------------- */
 
