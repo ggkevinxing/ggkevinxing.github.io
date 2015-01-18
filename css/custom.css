@@ -66,6 +66,7 @@ footer {
 .carousel-caption {
   background-color: #007196;
   color: white;
+  padding-bottom: 12px;
 }
 
 /* Declare heights because of positioning of img element */
