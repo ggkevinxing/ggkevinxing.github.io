@@ -59,8 +59,13 @@ footer {
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.carousel-indicators{
   z-index: 10;
+}
+
+.carousel-caption {
+  background-color: #007196;
+  color: white;
 }
 
 /* Declare heights because of positioning of img element */

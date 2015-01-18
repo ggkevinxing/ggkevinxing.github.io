@@ -28,13 +28,7 @@ h2 {
 
 /* Carousel */
 
-.carousel-indicators{
-  border-color: black;
-}
-
 .carousel-caption {
-  background-color: #007196;
-  color: white;
   padding-bottom: 12px;
 }
 

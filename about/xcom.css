@@ -78,12 +78,20 @@ hr {
 	color: #5ec0bf;
 }
 
-.carousel-control.right {
-	right: 36px;
-}
 
 .hoverbright:hover {
 	color: #5ec0bf;
+}
+
+
+/* carousel */
+
+.carousel-caption {
+	background-color: #5ec0bf;
+}
+
+.carousel-control.right {
+	right: 36px;
 }
 
 /* responsive */
