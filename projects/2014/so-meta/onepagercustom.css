@@ -1,0 +1,70 @@
+/* Misc */
+
+a {
+  color: #007196;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.hoverbright:hover {
+  color: black;
+}
+
+.text-muted {
+  color: black;
+}
+
+.sublime-patchwork {
+  margin-left: 25%;
+  padding-top: 50px;
+}
+
+h2 {
+  color: #007196;
+}
+
+/* Carousel */
+
+.carousel-indicators{
+  border-color: black;
+}
+
+.carousel-caption {
+  background-color: #007196;
+  color: white;
+  padding-bottom: 12px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 40px;
+  }
+}
