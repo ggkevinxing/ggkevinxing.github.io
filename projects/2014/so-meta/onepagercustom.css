@@ -30,6 +30,8 @@ h2 {
 
 .carousel-caption {
   padding-bottom: 12px;
+  background-color: #007196;
+  color: white;
 }
 
 /* Featurettes
