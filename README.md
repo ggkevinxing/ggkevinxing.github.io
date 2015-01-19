@@ -5,5 +5,6 @@ For now this site serves to showcase projects I've been working on, but progress
 
 ## Completed Project Pages
 
+* [ggkevinxing.github.io](http://kevinxing.me/projects/2014/so-meta/)
 * [aSymplePlatformer](http://kevinxing.me/projects/2014/asympleplatformer/)
 * [FullHealth.ca](http://kevinxing.me/projects/2013/fullhealth/)
