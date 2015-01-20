@@ -82,6 +82,20 @@ code {
   background-color:black;
 }
 
+@media (max-width: 767px) {
+  .carousel {
+    height: 200px;
+  }
+
+  .carousel .item {
+    height: 200px;
+  }
+
+  .carousel-inner > .item > img {
+    height: 200px;
+  }
+}
+
 /* Featurettes
 ------------------------- */
 
