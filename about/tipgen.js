@@ -2,7 +2,7 @@
 var tip = Array
 (
     "Did you remember to put commas in between elements in your array?",
-    "Did you remember to add '../' to script calls for web pages in different directory depths?"
+    "Did you remember to add '../' to script calls for web pages in different directory depths?",
     "Be careful; forgetting any closing tags, brackets or semi-colons can result in disaster.",
     "Be creative! Yes, I see the irony of this.",
     "Be excellent; a positive mindset, can-do attitude and cheery demeanor can bolster a team's morale.",
