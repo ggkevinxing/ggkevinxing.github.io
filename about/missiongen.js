@@ -17,6 +17,7 @@ var adj = Array
 	"CALCULATED",
 	"GLORIOUS",
 	"IRON",
+	"RAPID",
 	"ROARING",
 	"RAGING",
 	"RIPPING",
@@ -25,7 +26,7 @@ var adj = Array
 	"BROKEN",
 	"VENGEFUL",
 	"HIDDEN",
-	"STRIKING",
+	"BOUNDLESS",
 	"SWIFT",
 	"CHARGING",
 	"SHATTERING",
@@ -34,7 +35,11 @@ var adj = Array
 	"BLINDING",
 	"DEAFENING",
 	"TACTICAL",
-	"GUARDIAN"
+	"GUARDIAN",
+	"TWISTING",
+	"VENOMOUS",
+	"CAUSTIC",
+	"FACELESS"
 );
 
 // nouns
@@ -45,6 +50,7 @@ var noun = Array
 	"CRY",
 	"TERROR",
 	"RETALIATION",
+	"REVENGE",
 	"FORCE",
 	"MIGHT",
 	"LIGHT",
@@ -52,6 +58,7 @@ var noun = Array
 	"BULL",
 	"TIGER",
 	"EAGLE",
+	"SCORPION",
 	"DRAGON",
 	"INFERNO",
 	"THUNDER",
@@ -70,7 +77,11 @@ var noun = Array
 	"BLADE",
 	"EDGE",
 	"STRIKE",
-	"STEEL"
+	"STEEL",
+	"TSUNAMI",
+	"TWILIGHT",
+	"COURAGE",
+	"JUSTICE"
 );
 
 // make it work

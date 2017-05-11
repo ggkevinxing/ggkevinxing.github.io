@@ -29,141 +29,182 @@
   </head>
 
   <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
+<!-- <div class="navbar navbar-toggleable-md navbar-inverse navbar-fixed-top bg-primary">
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">Kevin Xing</a>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about/">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a class="dropdown-item" href="https://github.com/ggkevinxing/">GitHub</a></li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/uwkxing">LinkedIn</a></li>
+            <li><a class="dropdown-item" href="mailto:kxing@uwaterloo.ca">Email</a></li>
+          </ul>
+        </li>
+      </ul>
+        </li>
+      </ul>
+    </div>
+
   </div>
-  <div class="navbar-collapse collapse navbar-inverse-collapse">
-    <ul class="nav navbar-nav navbar-left">
-      <!-- <li><a href="#about">About</a></li> -->
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-    <li><a href="about/">About Me</a></li>
-	  <li class="dropdown">
-	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
-	      <ul class="dropdown-menu" role="menu">
-	        <li><a href="https://github.com/ggkevinxing/">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/uwkxing">LinkedIn</a></li>
-	        <li><a href="mailto:kxing@uwaterloo.ca">Email</a></li>
-	      </ul>
+    
+</div> -->
+
+<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-primary">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+  <a class="navbar-brand" href="#">Kevin Xing</a>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="about/">About Me</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a class="dropdown-item" href="https://github.com/ggkevinxing/">GitHub</a></li>
+          <li><a class="dropdown-item" href="https://www.linkedin.com/in/uwkxing">LinkedIn</a></li>
+          <li><a class="dropdown-item" href="mailto:kxing@uwaterloo.ca">Email</a></li>
+        </ul>
       </li>
     </ul>
-      </li>
-    </ul>
   </div>
-</div>
+</nav>
 
    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-      <div class="col-md-9">
-            <h1>What's Kevin been up to?</h1>
-    		<p class="lead"><small>Hi! I'm Kevin Xing, currently a third year Computer Science student at the University of Waterloo.</small></p>
-            <p>Welcome to my project index, where you can find summaries of projects I've worked on or am currently working on. Feel free to click "More" on any project (if available) to read about the development process.</p>
-            <p>
-              <a class="btn btn-primary" href="Kevin%20Xing%20-%20one%20pager.pdf" role="button">My resume</a> 
-              <a class="btn btn-primary" href="about/" role="button">About me</a>  
-              <a class="btn btn-primary" href="https://github.com/ggkevinxing/" role="button"><i class="fa fa-github-square"></i></a>
-              <a class="btn btn-primary" href="https://www.linkedin.com/in/uwkxing" role="button"><i class="fa fa-linkedin"></i></a> 
-            </p>
-           
-	  </div>
-	  <div class="col-md-3">
-		  <img src="https://avatars2.githubusercontent.com/u/7957147" class="img-thumbnail">
-	  </div>
+        <div class="row">
+          <div class="col-md-9">
+                <h1 class="display-4">What's Kevin been up to?</h1>
+        		<p class="lead"><small>Hi! I'm Kevin Xing, currently a third year Computer Science student at the University of Waterloo.</small></p>
+                <p>Welcome to my project index, where you can find summaries of projects I've worked on or am currently working on. Feel free to click on any project title in blue (if available) to view the code and read more.</p>
+                <p>I've worked with some awesome companies, such as Digital Extremes, Autodesk, and BlackBerry. You can read more about my work experience through my resume or LinkedIn profile.</p>
+                <p>
+                  <a class="btn btn-primary" href="Kevin%20Xing%20-%20one%20pager.pdf" role="button">My resume</a> 
+                  <a class="btn btn-primary" href="about/" role="button">About me</a>  
+                  <a class="btn btn-primary" href="https://www.linkedin.com/in/uwkxing" role="button"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-primary" href="https://github.com/ggkevinxing/" role="button"><i class="fa fa-github-square"></i></a>
+                </p>
+               
+    	  </div>
+      	  <div class="col-md-3">
+      		  <img src="https://avatars2.githubusercontent.com/u/7957147" class="img-thumbnail">
+      	  </div>
+        </div>
       </div>
     </div>
 
 <section id="portfolio">
     <div class="container">
 
-      <div class="row">
+      <div class="row spacer">
 
         <div class="col-md-4">
-          <h2>GitLab Alerts for Slack</h2>
-          <p><strong>September 2015</strong></p>
-          <p>A Node.JS application that uses the Slack API and MongoDB to notify users when changes have been made to GitLab repositories they have writing access to, with GitLab domains specified through environment variables.</p>
-          <p>Features include enabling and disabling notifications for specific projects by typing commands on Slack that the bot will recognize. When a commit is pushed to a project while being monitored by the application, the bot integration on Slack will message users with details regarding the changes to the respective repositories.</p>
-          <p>This project is also listed on the <a href="https://api.slack.com/community">Slack API Community page</a>, in the JavaScript category.</p>
-          <div class="spacer"><p><a class="btn btn-primary" href="https://github.com/ggkevinxing/slack-gitlab" role="button">Ironically View on GitHub</a></p></div>
+          <h2>Kundalini</h2>
+          <p><strong>May 2017 - Present</strong></p>
+          <p>A custom card-based game mode for Tabletop Simulator, using custom deck images and Lua.</p> 
+          <p>An very loose take on "Go Fish", Kundalini is a card game in which each card represents a pro Dota 2 player, and the goal is to construct the best Dota team by taking turns naming desireable players to add to one's team.</p>
+          <p>Based on the real life version <a href="https://www.youtube.com/watch?v=ufRIb4X5tEw">introduced at the Kiev Major 2017</a>.</p>
         </div>
 
         <div class="col-md-4">
-          <h2>TowerDrop</h2>
+          <h2><a href="https://github.com/ggkevinxing/discord_pasta_bot">Discord Pasta</a></h2>
+          <p><strong>January 2017</strong></p>
+          <p>A bot integration for Discord using Python and MongoDB for easily pasting text for helpful administrative use or otherwise.</p> 
+          <p>Users use a teaching command to associate text with a custom command phrase; the text is then pasted by the bot whenever the custom phrase is explicitly called.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Fantasy Football Analytics</h2>
+          <p><strong>December 2016 - Present</strong></p>
+          <p>An ongoing collection of scripts in R for collecting and analyzing data scraped from FootballDB.com.</p>
+          <p>The scraper is also written in R, using the XML and data table libraries to read in the stats on a page and clean it up for analysis.</p> 
+        </div>
+
+      </div><!-- /row -->
+
+      <div class="row spacer">
+
+        <div class="col-md-4">
+          <h2><a href="https://github.com/ggkevinxing/slack-gitlab">GitLab Alerts for Slack</a></h2>
+          <p><strong>September 2015</strong></p>
+          <p>A Node.JS application that uses the Slack API and MongoDB to notify users when changes have been made to GitLab repositories they have writing access to, with GitLab domains specified through environment variables.</p>
+          <p>Features include enabling and disabling notifications for specific projects by typing commands on Slack that the bot will recognize. When a commit is pushed to a project while being monitored by the application, the bot integration on Slack will message users with details regarding the changes to the respective repositories.</p>
+          <p>This project is also listed on the <a href="https://api.slack.com/community#javascript">Slack API Community page</a>, in the JavaScript category as "slack-gitlab".</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2><a href="https://github.com/FroshBite/TowerDrop">TowerDrop</a></h2>
           <p><i>Designer, Programmer</i></p>
           <p><strong>May 2015</strong></p>
           <p>A Tetris-like puzzle game with a tower defense twist made in Unity and C# for the Spring 2015 Games Institute Game Jam at the University of Waterloo. </p>
           <p>The player drops tetrominos onto a game board while enemies stumble from one end of the screen to the next. While the player is concerned about clearing lines, they also must strategically hinder the march of the monsters. Every few pieces, a tower block is dropped which will fire and deal damage to defeat them.</p>
           <p>Development was a collaborative effort between myself and three friends (<a href="https://github.com/lucaszw">@lucaszw</a>, <a href="https://github.com/sergei1152">@sergei1152</a> and <a href="https://github.com/shanpls">@shanpls</a>).</p>
-          <div class="spacer"><p><a class="btn btn-primary" href="https://github.com/FroshBite/TowerDrop" role="button">View on GitHub</a></p></div>
         </div>
 
         <div class="col-md-4">
-          <h2>Chrome Couch</h2>
+          <h2><a href="https://github.com/FroshBite/Chrome-Couch">Chrome Couch</a></h2>
           <p><i>Lead Designer, Lead Programmer</i></p>
           <p><strong>January 2015 - February 2015</strong></p>
           <p>A Google Chrome extension made during UofTHacks 2015 at the University of Toronto. Click, type, scroll and browse your way through Google Chrome using only your controller, reducing the need for unwieldy keyboard and mice setups in the living room.</p>
           <p>Using HTML, CSS, and JavaScript, Chrome Couch injects a virtual mouse and keyboard onto pages the user browses, giving access to functions like creating new tabs, typing in URLs, refreshing and more with just the push of a button.</p>
           <p>Development is a collaborative effort between myself and three friends (<a href="https://github.com/sergei1152">@sergei1152</a>, <a href="https://github.com/shanpls">@shanpls</a> and <a href="https://github.com/yaronkoller">@yaronkoller</a>).</p>
-          <div class="spacer"><p><a class="btn btn-primary" href="https://github.com/FroshBite/Chrome-Couch">View on GitHub</a></p></div>
         </div>
-
-          
-
-        
 
       </div><!-- /row -->
 
-      <div class="row">
+      <div class="row spacer">
 
 	      <div class="col-md-4">
   	      <h2>Blind</h2>
           <p class="squish"><i>Combat and UI Programmer</i></p> <p class="squish"><i> Lead Game and Sound Designer</i></p>
-  	      <p><strong>January 2015 - Present</strong></p>
+  	      <p><strong>January 2015</strong></p>
   	      <p>An RPG with less omniscience made in Unity for the Winter 2015 Games Institute Game Jam at the University of Waterloo.</p>
           <p>Unlike typical RPGs, information about attributes such as health are only gauged by observations made by the character in the form of dialogue.</p>
           <p>This was mainly practice to expand knowledge of Unity and C#, implementing features that I didn't have time to try with <a href="projects/2014/asympleplatformer/">aSymplePlatformer</a> like instantiation, persistent information carried across multiple scenes, and sound. </p>
           <p>Development is a collaborative effort between myself and two friends (<a href="https://github.com/shanpls">@shanpls</a> and <a href="https://github.com/yaronkoller">@yaronkoller</a>).</p>
-  	      <div class="spacer"><p><a class="btn btn-default disabled" href="#">Coming Soon</a></p></div>
     	  </div>  
 
         <div class="col-md-4">
-              <h2>kevinxing.ca</h2>
+              <h2><a href="projects/2014/so-meta/">kevinxing.ca</a></h2>
               <p><strong>December 2014 - Present</strong></p>
               <p>My first website ever, built to showcase what I've been doing/learning, which is a learning experience in itself. Meta!</p>
               <p>This website was written in HTML, CSS and JavaScript, with most of the layout elements powered by the wonderful <a href="http://getbootstrap.com/">Bootstrap</a>.</p>
               <p>Obviously, this is an always on-going project. In the future, I'd like to move away from GitHub Pages and take advantage of server-side code, something that I cannot do under current circumstances. Hence, the site is entirely static for the time being.</p>
-              <div class="spacer"><p><a class="btn btn-primary" href="projects/2014/so-meta/" role="button">More</a></p></div>
         </div>
 
         <div class="col-md-4">
-              <h2>aSymplePlatformer</h2>
+              <h2><a href="projects/2014/asympleplatformer/">aSymplePlatformer</a></h2>
               <p><i>Programmer, Artist, Lead Designer</i></p>
               <p><strong>October 2014 - January 2015</strong></p>
               <p>An asynchronous local competitive multiplayer 2D platformer made in Unity and C# for the Fall 2014 Games Institute Game Jam at the University of Waterloo. </p>
               <p>The first player controls a character trying to complete platforming levels while the second player uses the mouse to drag and drop obstacles into the level in attempts to stop the first player from successfully reaching the end of the level.</p>
               <p>Development was a collaborative effort between myself and two friends (<a href="https://github.com/sergei1152">@sergei1152</a> and <a href="https://github.com/shanpls">@shanpls</a>). As of January 2015, development had halted as the team moved on to their next game project for the GI Jam of Winter 2015.</p>
-              <div class="spacer"><p><a class="btn btn-primary" href="projects/2014/asympleplatformer/" role="button">More</a></p></div>
        </div>
 
 
       </div><!-- /row -->
       <!-- Example row of columns -->
-      <div class="row">
+      <div class="row spacer">
 
         <div class="col-md-4">
-              <h2>FullHealth</h2>
+              <h2><a href="projects/2013/fullhealth">FullHealth</a></h2>
               <p><i>Web Developer</i></p>
               <p><strong>June 2013 - September 2013</strong></p>
               <p>Real work experience in web design! FullHealth.ca is written in HTML, CSS, PHP and jQuery. </p>
               <p>My contributions during my time working on the site over the summer mainly comprised of improving backwards compatibility with older browsers as old as Internet Explorer 6 (as a charity they value as broad an audience as possible) and implementing basic features such as a fixed-position donation bar and minor adjustments of interface elements.</p>
               <p>I was not working on the website from its inception, so it was an interesting experience learning how to adapt to foundations that others have written and building upon it. </p>
-              <div class="spacer"><p><a class="btn btn-primary" href="projects/2013/fullhealth" role="button">More</a></p></div>
         </div>
 
       </div><!-- /row -->
@@ -201,7 +242,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 
 
