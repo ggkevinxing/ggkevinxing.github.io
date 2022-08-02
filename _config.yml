@@ -1,3 +1,5 @@
+url: "https://kevinxing.ca"
+
 include: [".well-known"]
 
 collections:
