@@ -45,7 +45,7 @@ layout: default
                 <div class="card-body">
                     <p class="card-text">{{job.content | markdownify}}</p>
                     <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">{{ job.date | date: %B %Y" }} {% if job.end %} - {{job.end | date: %B %Y" }}{% endif %}</small>
+                        <small class="text-muted">{{ job.date | date: "%B %Y" }} {% if job.end %} - {{job.end | date: "%B %Y" }}{% endif %}</small>
                     </div>
                 </div>
             </div>
