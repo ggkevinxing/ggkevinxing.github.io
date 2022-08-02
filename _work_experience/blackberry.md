@@ -1,5 +1,5 @@
 ---
-company: BlackBerry (formerly Research In Motion)
+company: BlackBerry
 position: Software Developer
 location: Toronto, Canada
 date: 2015-09-01 00:00:00
