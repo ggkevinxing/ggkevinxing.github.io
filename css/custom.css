@@ -5,6 +5,14 @@ a {
   text-decoration: none;
 }
 
+footer a.nav-link:hover {
+  color: #008cba!important;
+}
+
+.border-bottom.nav {
+  border-bottom-color: #008cba66!important;
+}
+
 ul.nav {
 	font-size: 13px;
 }
@@ -17,15 +25,9 @@ section {
 	padding-bottom: 40px;
 }
 
-.jumbotron-new {
+.jumbotron {
   margin-top: 1.5rem!important;
   margin-bottom: 1.5rem!important;
-}
-
-.jumbotron {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  margin-bottom: 32px;
 }
 
 .alert {
