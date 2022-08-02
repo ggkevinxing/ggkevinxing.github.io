@@ -1,5 +1,5 @@
 ---
-name: Shopify
+company: Shopify
 position: Software Engineer, Delivery Experience
 location: San Francisco, USA
 date: 2022-07-01 00:00:00

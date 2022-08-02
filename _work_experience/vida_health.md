@@ -1,5 +1,5 @@
 ---
-name: Vida Health
+company: Vida Health
 position: Software Engineer Intern, Infrastructure
 location: San Francisco, USA
 date: 2018-09-01 00:00:00

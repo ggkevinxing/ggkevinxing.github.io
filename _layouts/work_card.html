@@ -17,6 +17,9 @@
                   <p class="lead"><small>{{page.location}}</small></p>
                   <p class="lead">{{page.position}}</p>
                   {{content | markdownify}}
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">{{ job.date | date: "%B %Y" }} {% if job.end %} - {{job.end | date: "%B %Y" }}{% endif %}</small>
+                    </div>
                 </div>
                 <div class="col-md-3">
                   <img src="{{site.url}}/images/work_logos/{{page.short}}.png" class="img-thumbnail">

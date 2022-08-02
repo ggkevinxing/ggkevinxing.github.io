@@ -1,5 +1,5 @@
 ---
-name: Digital Extremes
+company: Digital Extremes
 position: Statistical Programmer
 location: London, Canada
 date: 2017-01-01 00:00:00

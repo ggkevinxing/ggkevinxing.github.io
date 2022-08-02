@@ -1,5 +1,5 @@
 ---
-name: Deliverr
+company: Deliverr
 position: Software Engineer, Growth (2019-2021), Delivery Programs (2021-2022)
 location: San Francisco, USA
 date: 2019-07-01 00:00:00

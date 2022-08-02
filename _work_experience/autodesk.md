@@ -1,5 +1,5 @@
 ---
-name: Autodesk
+company: Autodesk
 position: Software Developer Intern
 location: Toronto, Canada
 date: 2016-05-01 00:00:00

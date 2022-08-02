@@ -1,5 +1,5 @@
 ---
-name: Electronic Arts
+company: Electronic Arts
 position: Associate Software Engineer, UFC 3
 location: Vancouver, Canada
 date: 2017-09-01 00:00:00
