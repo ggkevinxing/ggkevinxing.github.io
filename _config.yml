@@ -3,4 +3,6 @@ url: "https://kevinxing.ca"
 include: [".well-known"]
 
 collections:
-  - work_experience
+  work_experience:
+    output: true
+    permalink: /:collection/:name
