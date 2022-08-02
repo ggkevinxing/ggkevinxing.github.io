@@ -5,11 +5,16 @@ ul.nav {
 }
 
 section {
-  : 300px;
+  padding-top: 32px;
 }
 
 .spacer {
 	padding-bottom: 40px;
+}
+
+.jumbotron-new {
+  margin-top: 1.5rem!important;
+  margin-bottom: 1.5rem!important;
 }
 
 .jumbotron {
@@ -19,7 +24,7 @@ section {
 }
 
 .alert {
-  padding: 0px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 footer {
