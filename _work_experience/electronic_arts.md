@@ -11,6 +11,7 @@ layout: work_card
 
 My name is in the credits of a [game](https://www.instagram.com/p/BfB6jHyHb8b/) purchased by millions! What a fun fact I can now say about myself because of my time at EA. 
 <!--more-->
+
 On UFC 3 I got to work on all things UI: 
 
 * Worked with Technical Artists to recreate designed UI elements and animations in-game
