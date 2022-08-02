@@ -1,53 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>Kevin Xing</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap5.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7762556103293531"
-     crossorigin="anonymous"></script>
-  </head>
-
-  <body>
-
-<header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./">Kevin Xing</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarToggle">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="projects/">Past Projects</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="https://github.com/ggkevinxing/">GitHub</a>
-            <a class="dropdown-item" href="https://www.linkedin.com/in/kev-xing">LinkedIn</a>
-            <a class="dropdown-item" href="mailto:kevinzhangxing@gmail.com">Email</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+---
+layout: default
+---
 
 <main>
 <!-- JUMBOTRON -->
@@ -82,6 +35,7 @@
 </div>
 
 <!-- WORK EXPERIENCE CARDS -->
+{% if site.work_experience %}
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         {% for job in site.work_experience %}
@@ -89,7 +43,7 @@
             <div class="card shadow-sm">
                 <img width="50%" class="card-img-top" src="images/work_logos/{{job.short}}.png" focusable="false">  
                 <div class="card-body">
-                    <p class="card-text">{{job.content}}</p>
+                    <p class="card-text">{{job.content | markdownify}}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">{{ job.date | date: %B %Y" }} {% if job.end %} - {{job.end | date: %B %Y" }}{% endif %}</small>
                     </div>
@@ -99,20 +53,6 @@
         {% endfor %}
     </div>
 </div>
+{% endif %}
 
 </main>
-
-<footer class="py-3 my-4">
-  <ul class="nav justify-content-center border-bottom pb-2 mb-3">
-    <li class="nav-item"><a href="./" class="nav-link px-2 text-muted">Home</a></li>
-    <li class="nav-item"><a href="Kevin%20Xing%20-%20one%20pager.pdf" class="nav-link px-2 text-muted">Resume</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
-    <li class="nav-item"><a href="projects/" class="nav-link px-2 text-muted">Past Projects</a></li>
-  </ul>
-  <p class="text-center text-muted"><small>© 2022 Kevin Xing</small></p>
-</footer>
-    <script src="js/bootstrap5.bundle.min.js"></script>
-
-
-  </body>
-</html>
