@@ -38,10 +38,10 @@ layout: default
 {% if site.work_experience %}
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        {% for job in site.work_experience %}
+        {% for job in site.work_experience reversed %}
         <div class="col">
             <div class="card shadow-sm">
-                <img width="50%" class="card-img-top" src="images/work_logos/{{job.short}}.png" focusable="false">  
+                <img height=200px class="mx-auto p-1" src="images/work_logos/{{job.short}}.png" focusable="false">  
                 <div class="card-body">
                     <p class="card-text">{{job.content | markdownify}}</p>
                     <div class="d-flex justify-content-between align-items-center">
