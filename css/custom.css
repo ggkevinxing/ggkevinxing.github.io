@@ -1,5 +1,10 @@
 /* GENERAL TWEAKS
 ----------------------- */
+
+a {
+  text-decoration: none;
+}
+
 ul.nav {
 	font-size: 13px;
 }
