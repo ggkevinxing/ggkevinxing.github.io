@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kevinxing.ca
+Token: e8cfe252dfb4781d180e77f605f636a6d5769b861d163822ea103528469bfc4f
