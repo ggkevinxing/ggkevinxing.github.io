@@ -9,6 +9,6 @@ excerpt_separator: <!--more-->
 layout: work_card
 ---
 
-My first ever work experience! This was an internship at BlackBerry's Toronto office which was primarily focused on research and development for products targeted at an enterprise audience. 
+My first ever work experience! This was an internship at [BlackBerry](https://ca.blackberry.com/enterprise)'s Toronto office which was primarily focused on research and development for products targeted at an enterprise audience. 
 
 I created a Slack bot integration that allowed users to share secure links to files hosted on WatchDox, BlackBerry's cloud-based secure file-sharing service.

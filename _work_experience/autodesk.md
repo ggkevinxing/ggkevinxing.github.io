@@ -9,6 +9,6 @@ excerpt_separator: <!--more-->
 layout: work_card
 ---
 
-At Autodesk I got to work on a team that was developing a proprietary JavaScript library that would be used as a common source of helpful functions and features for engineers throughout the entire company. I helped develop small features for this library, created demos for it, and implemented new features in a 3D printing web app with it. 
+At [Autodesk](https://www.autodesk.ca/en/solutions/3d-printing) I got to work on a team that was developing a proprietary JavaScript library that would be used as a common source of helpful functions and features for engineers throughout the entire company. I helped develop small features for this library, created demos for it, and implemented new features in a 3D printing web app with it. 
 
 It was fun playing with 3D printers!
