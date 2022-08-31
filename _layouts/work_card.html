@@ -14,7 +14,6 @@
                 <h1 class="display-4">{{page.company}}</h1>
                 <p class="lead"><small>{{page.location}}</small></p>
                 <p class="lead">{{page.position}}</p>
-                {{content | markdownify}}
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted"
                     >{{ page.date | date: "%B %Y" }} {% if page.end %} -
@@ -33,6 +32,8 @@
         </div>
       </div>
     </div>
+
+    <div class="container">{{content | markdownify}}</div>
 
     {% include footer.html %}
   </body>
