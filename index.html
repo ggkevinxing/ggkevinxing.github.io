@@ -3,61 +3,100 @@ layout: default
 ---
 
 <main>
-<!-- JUMBOTRON -->
-<div class="container">
-  <div class="row">
-    <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-md-9">
-            <h1 class="display-4">What has Kevin been up to?</h1>
-            <p class="lead">Hi! I'm Kevin Xing, a software engineer that floats around San Francisco and Toronto.</p>
-            <p>I currently work at <a href="https://deliverr.com">Deliverr</a>, now part of <a href="https://www.shopify.com/fulfillment">Shopify</a>! </p>
-            <p>Whether it's for utility or entertainment, I'm crazy passionate about working on products that myself and others could really appreciate.</p>
-            <p>You can read more about me below or you can click on any of these buttons!</p>
-            <p>
-              <a class="btn btn-primary my-2" href="Kevin%20Xing%20-%20one%20pager.pdf" role="button">My resume</a>
-              <a class="btn btn-primary my-2" href="https://www.linkedin.com/in/kev-xing" role="button"><i class="fa fa-linkedin"></i></a>
-              <a class="btn btn-primary my-2" href="https://github.com/ggkevinxing/" role="button"><i class="fa fa-github-square"></i></a>
-              <a class="btn btn-primary my-2" href="https://www.instagram.com/kev.xing/" role="button"><i class="fa fa-instagram"></i></a>
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="images/profile_picture.jpg" class="img-thumbnail">
+  <!-- JUMBOTRON -->
+  <div class="container">
+    <div class="row">
+      <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-9">
+              <h1 class="display-4">What has Kevin been up to?</h1>
+              <p class="lead">
+                Hi! I'm Kevin Xing, a software engineer that floats around San
+                Francisco and Toronto.
+              </p>
+              <p>
+                I currently work at <a href="https://deliverr.com">Deliverr</a>,
+                now part of
+                <a href="https://www.shopify.com/fulfillment">Shopify</a>!
+              </p>
+              <p>
+                Whether it's for utility or entertainment, I'm crazy passionate
+                about working on products that myself and others could really
+                appreciate.
+              </p>
+              <p>
+                You can read more about me below or you can click on any of
+                these buttons!
+              </p>
+              <p>
+                <a
+                  class="btn btn-primary my-2"
+                  href="Kevin%20Xing%20-%20one%20pager.pdf"
+                  role="button"
+                  >My resume</a
+                >
+                <a
+                  class="btn btn-primary my-2"
+                  href="https://www.linkedin.com/in/kev-xing"
+                  role="button"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a
+                  class="btn btn-primary my-2"
+                  href="https://github.com/ggkevinxing/"
+                  role="button"
+                  ><i class="fa fa-github-square"></i
+                ></a>
+                <a
+                  class="btn btn-primary my-2"
+                  href="https://www.instagram.com/kev.xing/"
+                  role="button"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <img src="images/profile_picture.jpg" class="img-thumbnail" />
+            </div>
           </div>
         </div>
-        
       </div>
-      
     </div>
   </div>
-</div>
 
-<!-- WORK EXPERIENCE CARDS -->
-{% if site.work_experience %}
-<div class="container">
+  <!-- WORK EXPERIENCE CARDS -->
+  {% if site.work_experience %}
+  <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        {% for job in site.work_experience reversed %}
-        <div class="col">
-            <div class="card shadow-sm">
-                <img height=200px class="mx-auto p-1" src="images/work_logos/{{job.short}}.png" focusable="false">  
-                <div class="card-body">
-                    <h5 class="card-title">{{job.company}}</h5>
-                    <h7>{{job.location}}</h7>
-                    <h6 class="card-subtitle text-muted pt-2">{{job.position}}</h6>
-                    <p class="card-text">{{job.excerpt | markdownify}}</p>
-                    {% if job.content.size > job.excerpt.size %}
-                    <a href="{{job.url}}">Read more</a>
-                    {% endif %}
-                    <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">{{ job.date | date: "%B %Y" }} {% if job.end %} - {{job.end | date: "%B %Y" }}{% endif %}</small>
-                    </div>
-                </div>
+      {% for job in site.work_experience reversed %}
+      <div class="col">
+        <div class="card shadow-sm">
+          <img
+            height="200px"
+            class="mx-auto p-1"
+            src="images/work_logos/{{job.short}}.png"
+            focusable="false"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{job.company}}</h5>
+            <h7>{{job.location}}</h7>
+            <h6 class="card-subtitle text-muted pt-2">{{job.position}}</h6>
+            <p class="card-text">{{job.excerpt | markdownify}}</p>
+            {% if job.content.size > job.excerpt.size %}
+            <a href="{{job.url}}">Read more</a>
+            {% endif %}
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted"
+                >{{ job.date | date: "%B %Y" }} {% if job.end %} - {{job.end |
+                date: "%B %Y" }}{% endif %}</small
+              >
             </div>
+          </div>
         </div>
-        {% endfor %}
+      </div>
+      {% endfor %}
     </div>
-</div>
-{% endif %}
-
+  </div>
+  {% endif %}
 </main>

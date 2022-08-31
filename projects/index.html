@@ -3,117 +3,267 @@ layout: default
 ---
 
 <main>
+  <div class="alert alert-dismissible alert-warning">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <h4 class="alert-heading">Warning!</h4>
+    <p class="mb-0">
+      All these past projects (including this part of the website) were written
+      while I was still an undergraduate student at the University of Waterloo.
+      Take poor website compatability and unimpressive showing of technical
+      ability with a grain of salt!
+    </p>
+    <p>
+      Do check out the old
+      <a href="{{site.url}}/about" class="alert-link">About Me</a> page though,
+      I'm pretty happy I was able to do that.
+    </p>
+  </div>
 
-<div class="alert alert-dismissible alert-warning">
-  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <h4 class="alert-heading">Warning!</h4>
-  <p class="mb-0">All these past projects (including this part of the website) were written while I was still an undergraduate student at the University of Waterloo. Take poor website compatability and unimpressive showing of technical ability with a grain of salt!</p>
-  <p>Do check out the old <a href="{{site.url}}/about" class="alert-link">About Me</a> page though, I'm pretty happy I was able to do that.</p>
-</div>
-
-<section id="portfolio">
+  <section id="portfolio">
     <div class="container">
-
       <div class="row spacer">
-
         <div class="col-md-4">
-          <h2><a href="https://github.com/ggkevinxing/discord_pasta_bot">Discord Pasta</a></h2>
+          <h2>
+            <a href="https://github.com/ggkevinxing/discord_pasta_bot"
+              >Discord Pasta</a
+            >
+          </h2>
           <p><strong>December 2018</strong></p>
-          <p>A bot integration for Discord using Python and MongoDB for easily pasting text for helpful administrative use or otherwise.</p> 
-          <p>Users use a teaching command to associate text with a custom command phrase; the text is then pasted by the bot whenever the custom phrase is explicitly called.</p>
+          <p>
+            A bot integration for Discord using Python and MongoDB for easily
+            pasting text for helpful administrative use or otherwise.
+          </p>
+          <p>
+            Users use a teaching command to associate text with a custom command
+            phrase; the text is then pasted by the bot whenever the custom
+            phrase is explicitly called.
+          </p>
         </div>
 
         <div class="col-md-4">
           <h2>Kundalini</h2>
           <p><strong>May 2017</strong></p>
-          <p>A custom card-based game mode for Tabletop Simulator, using custom deck images and Lua.</p> 
-          <p>An very loose take on "Go Fish", Kundalini is a card game in which each card represents a pro Dota 2 player, and the goal is to construct the best Dota team by taking turns naming players to add to one's team that an opponent might have.</p>
-          <p>Based on the real life version <a href="https://www.youtube.com/watch?v=ufRIb4X5tEw">introduced at the Kiev Major 2017</a>.</p>
+          <p>
+            A custom card-based game mode for Tabletop Simulator, using custom
+            deck images and Lua.
+          </p>
+          <p>
+            An very loose take on "Go Fish", Kundalini is a card game in which
+            each card represents a pro Dota 2 player, and the goal is to
+            construct the best Dota team by taking turns naming players to add
+            to one's team that an opponent might have.
+          </p>
+          <p>
+            Based on the real life version
+            <a href="https://www.youtube.com/watch?v=ufRIb4X5tEw"
+              >introduced at the Kiev Major 2017</a
+            >.
+          </p>
         </div>
 
         <div class="col-md-4">
           <h2>Fantasy Football Analytics</h2>
           <p><strong>December 2016</strong></p>
-          <p>A collection of scripts in R for collecting and analyzing data scraped from FootballDB.com.</p>
-          <p>The scraper is also written in R, using the XML and data table libraries to read in the stats on a page and clean it up for analysis.</p> 
+          <p>
+            A collection of scripts in R for collecting and analyzing data
+            scraped from FootballDB.com.
+          </p>
+          <p>
+            The scraper is also written in R, using the XML and data table
+            libraries to read in the stats on a page and clean it up for
+            analysis.
+          </p>
         </div>
-
-      </div><!-- /row -->
+      </div>
+      <!-- /row -->
 
       <div class="row spacer">
-
         <div class="col-md-4">
-          <h2><a href="https://github.com/ggkevinxing/slack-gitlab">GitLab Alerts for Slack</a></h2>
+          <h2>
+            <a href="https://github.com/ggkevinxing/slack-gitlab"
+              >GitLab Alerts for Slack</a
+            >
+          </h2>
           <p><strong>September 2015</strong></p>
-          <p>A Node.JS application that uses the Slack API and MongoDB to notify users when changes have been made to GitLab repositories they have writing access to, with GitLab domains specified through environment variables.</p>
-          <p>Features include enabling and disabling notifications for specific projects by typing commands on Slack that the bot will recognize. When a commit is pushed to a project while being monitored by the application, the bot integration on Slack will message users with details regarding the changes to the respective repositories.</p>
-          <p>This project is also listed on the <a href="https://api.slack.com/community#javascript">Slack API Community page</a>, in the JavaScript category as "slack-gitlab".</p>
+          <p>
+            A Node.JS application that uses the Slack API and MongoDB to notify
+            users when changes have been made to GitLab repositories they have
+            writing access to, with GitLab domains specified through environment
+            variables.
+          </p>
+          <p>
+            Features include enabling and disabling notifications for specific
+            projects by typing commands on Slack that the bot will recognize.
+            When a commit is pushed to a project while being monitored by the
+            application, the bot integration on Slack will message users with
+            details regarding the changes to the respective repositories.
+          </p>
+          <p>
+            This project is also listed on the
+            <a href="https://api.slack.com/community#javascript"
+              >Slack API Community page</a
+            >, in the JavaScript category as "slack-gitlab".
+          </p>
         </div>
 
         <div class="col-md-4">
-          <h2><a href="https://github.com/FroshBite/TowerDrop">TowerDrop</a></h2>
+          <h2>
+            <a href="https://github.com/FroshBite/TowerDrop">TowerDrop</a>
+          </h2>
           <p><i>Designer, Programmer</i></p>
           <p><strong>May 2015</strong></p>
-          <p>A Tetris-like puzzle game with a tower defense twist made in Unity and C# for the Spring 2015 Games Institute Game Jam at the University of Waterloo. </p>
-          <p>The player drops tetrominos onto a game board while enemies stumble from one end of the screen to the next. While the player is concerned about clearing lines, they also must strategically hinder the march of the monsters. Every few pieces, a tower block is dropped which will fire and deal damage to defeat them.</p>
-          <p>Development was a collaborative effort between myself and three friends (<a href="https://github.com/lucaszw">@lucaszw</a>, <a href="https://github.com/sergei1152">@sergei1152</a> and <a href="https://github.com/shanpls">@shanpls</a>).</p>
+          <p>
+            A Tetris-like puzzle game with a tower defense twist made in Unity
+            and C# for the Spring 2015 Games Institute Game Jam at the
+            University of Waterloo.
+          </p>
+          <p>
+            The player drops tetrominos onto a game board while enemies stumble
+            from one end of the screen to the next. While the player is
+            concerned about clearing lines, they also must strategically hinder
+            the march of the monsters. Every few pieces, a tower block is
+            dropped which will fire and deal damage to defeat them.
+          </p>
+          <p>
+            Development was a collaborative effort between myself and three
+            friends (<a href="https://github.com/lucaszw">@lucaszw</a>,
+            <a href="https://github.com/sergei1152">@sergei1152</a> and
+            <a href="https://github.com/shanpls">@shanpls</a>).
+          </p>
         </div>
 
         <div class="col-md-4">
-          <h2><a href="https://github.com/FroshBite/Chrome-Couch">Chrome Couch</a></h2>
+          <h2>
+            <a href="https://github.com/FroshBite/Chrome-Couch">Chrome Couch</a>
+          </h2>
           <p><i>Lead Designer, Lead Programmer</i></p>
           <p><strong>January 2015 - February 2015</strong></p>
-          <p>A Google Chrome extension made during UofTHacks 2015 at the University of Toronto. Click, type, scroll and browse your way through Google Chrome using only your controller, reducing the need for unwieldy keyboard and mice setups in the living room.</p>
-          <p>Using HTML, CSS, and JavaScript, Chrome Couch injects a virtual mouse and keyboard onto pages the user browses, giving access to functions like creating new tabs, typing in URLs, refreshing and more with just the push of a button.</p>
-          <p>Development is a collaborative effort between myself and three friends (<a href="https://github.com/sergei1152">@sergei1152</a>, <a href="https://github.com/shanpls">@shanpls</a> and <a href="https://github.com/yaronkoller">@yaronkoller</a>).</p>
+          <p>
+            A Google Chrome extension made during UofTHacks 2015 at the
+            University of Toronto. Click, type, scroll and browse your way
+            through Google Chrome using only your controller, reducing the need
+            for unwieldy keyboard and mice setups in the living room.
+          </p>
+          <p>
+            Using HTML, CSS, and JavaScript, Chrome Couch injects a virtual
+            mouse and keyboard onto pages the user browses, giving access to
+            functions like creating new tabs, typing in URLs, refreshing and
+            more with just the push of a button.
+          </p>
+          <p>
+            Development is a collaborative effort between myself and three
+            friends (<a href="https://github.com/sergei1152">@sergei1152</a>,
+            <a href="https://github.com/shanpls">@shanpls</a> and
+            <a href="https://github.com/yaronkoller">@yaronkoller</a>).
+          </p>
         </div>
-
-      </div><!-- /row -->
+      </div>
+      <!-- /row -->
 
       <div class="row spacer">
-
-	      <div class="col-md-4">
-  	      <h2>Blind</h2>
-          <p class="squish"><i>Combat and UI Programmer</i></p> <p class="squish"><i> Lead Game and Sound Designer</i></p>
-  	      <p><strong>January 2015</strong></p>
-  	      <p>An RPG with less omniscience made in Unity for the Winter 2015 Games Institute Game Jam at the University of Waterloo.</p>
-          <p>Unlike typical RPGs, information about attributes such as health are only gauged by observations made by the character in the form of dialogue.</p>
-          <p>This was mainly practice to expand knowledge of Unity and C#, implementing features that I didn't have time to try with <a href="projects/2014/asympleplatformer/">aSymplePlatformer</a> like instantiation, persistent information carried across multiple scenes, and sound. </p>
-          <p>Development is a collaborative effort between myself and two friends (<a href="https://github.com/shanpls">@shanpls</a> and <a href="https://github.com/yaronkoller">@yaronkoller</a>).</p>
-    	  </div>  
-
         <div class="col-md-4">
-              <h2><a href="projects/2014/so-meta/">kevinxing.ca</a></h2>
-              <p><strong>December 2014 - Present</strong></p>
-              <p>My first website ever, built to showcase what I've been doing/learning, which is a learning experience in itself. Meta!</p>
-              <p>This website was written in HTML, CSS and JavaScript, with most of the layout elements powered by the wonderful <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
-              <p>Obviously, this is an always on-going project. In the future, I'd like to move away from GitHub Pages and take advantage of server-side code, something that I cannot do under current circumstances. Hence, the site is entirely static for the time being.</p>
+          <h2>Blind</h2>
+          <p class="squish"><i>Combat and UI Programmer</i></p>
+          <p class="squish"><i> Lead Game and Sound Designer</i></p>
+          <p><strong>January 2015</strong></p>
+          <p>
+            An RPG with less omniscience made in Unity for the Winter 2015 Games
+            Institute Game Jam at the University of Waterloo.
+          </p>
+          <p>
+            Unlike typical RPGs, information about attributes such as health are
+            only gauged by observations made by the character in the form of
+            dialogue.
+          </p>
+          <p>
+            This was mainly practice to expand knowledge of Unity and C#,
+            implementing features that I didn't have time to try with
+            <a href="projects/2014/asympleplatformer/">aSymplePlatformer</a>
+            like instantiation, persistent information carried across multiple
+            scenes, and sound.
+          </p>
+          <p>
+            Development is a collaborative effort between myself and two friends
+            (<a href="https://github.com/shanpls">@shanpls</a> and
+            <a href="https://github.com/yaronkoller">@yaronkoller</a>).
+          </p>
         </div>
 
         <div class="col-md-4">
-              <h2><a href="projects/2014/asympleplatformer/">aSymplePlatformer</a></h2>
-              <p><i>Programmer, Artist, Lead Designer</i></p>
-              <p><strong>October 2014 - January 2015</strong></p>
-              <p>An asynchronous local competitive multiplayer 2D platformer made in Unity and C# for the Fall 2014 Games Institute Game Jam at the University of Waterloo. </p>
-              <p>The first player controls a character trying to complete platforming levels while the second player uses the mouse to drag and drop obstacles into the level in attempts to stop the first player from successfully reaching the end of the level.</p>
-              <p>Development was a collaborative effort between myself and two friends (<a href="https://github.com/sergei1152">@sergei1152</a> and <a href="https://github.com/shanpls">@shanpls</a>). As of January 2015, development had halted as the team moved on to their next game project for the GI Jam of Winter 2015.</p>
-       </div>
+          <h2><a href="projects/2014/so-meta/">kevinxing.ca</a></h2>
+          <p><strong>December 2014 - Present</strong></p>
+          <p>
+            My first website ever, built to showcase what I've been
+            doing/learning, which is a learning experience in itself. Meta!
+          </p>
+          <p>
+            This website was written in HTML, CSS and JavaScript, with most of
+            the layout elements powered by the wonderful
+            <a href="https://getbootstrap.com/">Bootstrap</a>.
+          </p>
+          <p>
+            Obviously, this is an always on-going project. In the future, I'd
+            like to move away from GitHub Pages and take advantage of
+            server-side code, something that I cannot do under current
+            circumstances. Hence, the site is entirely static for the time
+            being.
+          </p>
+        </div>
 
-
-      </div><!-- /row -->
+        <div class="col-md-4">
+          <h2>
+            <a href="projects/2014/asympleplatformer/">aSymplePlatformer</a>
+          </h2>
+          <p><i>Programmer, Artist, Lead Designer</i></p>
+          <p><strong>October 2014 - January 2015</strong></p>
+          <p>
+            An asynchronous local competitive multiplayer 2D platformer made in
+            Unity and C# for the Fall 2014 Games Institute Game Jam at the
+            University of Waterloo.
+          </p>
+          <p>
+            The first player controls a character trying to complete platforming
+            levels while the second player uses the mouse to drag and drop
+            obstacles into the level in attempts to stop the first player from
+            successfully reaching the end of the level.
+          </p>
+          <p>
+            Development was a collaborative effort between myself and two
+            friends (<a href="https://github.com/sergei1152">@sergei1152</a> and
+            <a href="https://github.com/shanpls">@shanpls</a>). As of January
+            2015, development had halted as the team moved on to their next game
+            project for the GI Jam of Winter 2015.
+          </p>
+        </div>
+      </div>
+      <!-- /row -->
       <!-- Example row of columns -->
       <div class="row spacer">
-
         <div class="col-md-4">
-              <h2><a href="projects/2013/fullhealth">FullHealth</a></h2>
-              <p><i>Web Developer</i></p>
-              <p><strong>June 2013 - September 2013</strong></p>
-              <p>Real work experience in web design! FullHealth.ca is written in HTML, CSS, PHP and jQuery. </p>
-              <p>My contributions during my time working on the site over the summer mainly comprised of improving backwards compatibility with older browsers as old as Internet Explorer 6 (as a charity they value as broad an audience as possible) and implementing basic features such as a fixed-position donation bar and minor adjustments of interface elements.</p>
-              <p>I was not working on the website from its inception, so it was an interesting experience learning how to adapt to foundations that others have written and building upon it. </p>
+          <h2><a href="projects/2013/fullhealth">FullHealth</a></h2>
+          <p><i>Web Developer</i></p>
+          <p><strong>June 2013 - September 2013</strong></p>
+          <p>
+            Real work experience in web design! FullHealth.ca is written in
+            HTML, CSS, PHP and jQuery.
+          </p>
+          <p>
+            My contributions during my time working on the site over the summer
+            mainly comprised of improving backwards compatibility with older
+            browsers as old as Internet Explorer 6 (as a charity they value as
+            broad an audience as possible) and implementing basic features such
+            as a fixed-position donation bar and minor adjustments of interface
+            elements.
+          </p>
+          <p>
+            I was not working on the website from its inception, so it was an
+            interesting experience learning how to adapt to foundations that
+            others have written and building upon it.
+          </p>
         </div>
-
-      </div><!-- /row -->
-    </div><!-- /container -->
-</section>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </section>
 </main>
