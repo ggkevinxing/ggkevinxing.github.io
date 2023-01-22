@@ -156,3 +156,10 @@ code {
     margin-top: 120px;
   }
 }
+
+/* Cards
+---------*/
+
+.card {
+  height: 100%;
+}
