@@ -14,16 +14,16 @@
           <h5 class="card-title">{{job.company}}</h5>
           <h7>{{job.location}}</h7>
           <h6 class="card-subtitle text-muted pt-2">{{job.position}}</h6>
-          <p class="card-text">{{job.excerpt | markdownify}}</p>
-          {% if job.content.size > job.excerpt.size %}
-          <a href="{{job.url}}">Read more</a>
-          {% endif %}
           <div class="d-flex justify-content-between align-items-center">
             <small class="text-muted"
               >{{ job.date | date: "%B %Y" }} {% if job.end %} - {{job.end |
               date: "%B %Y" }}{% endif %}</small
             >
           </div>
+          <p class="card-text">{{job.excerpt | markdownify}}</p>
+          {% if job.content.size > job.excerpt.size %}
+          <a href="{{job.url}}">Read more</a>
+          {% endif %}
         </div>
       </div>
     </div>

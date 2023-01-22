@@ -1,6 +1,6 @@
 ---
 company: Shopify
-position: Software Engineer, Delivery Experience
+position: Software Engineer, Shopify Logistics
 location: San Francisco, USA
 date: 2022-07-01 00:00:00
 short: shopify
